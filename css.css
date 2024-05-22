@@ -1,0 +1,37 @@
+/******************************************************************************/
+/*                                  IMPORTS                                   */
+/******************************************************************************/
+
+@import 'normalize.css';
+
+/******************************************************************************/
+/*                                  MAIN CSS                                  */
+/******************************************************************************/
+
+.username {
+  color: var(--user-color);
+  text-shadow: -1px -1px 0 var(--user-color-outline), 1px -1px 0 var(--user-color-outline), -1px 1px 0 var(--user-color-outline), 1px 1px 0 var(--user-color-outline);
+}
+
+.username_secondary {
+  color: var(--user-color);
+}
+
+.badges_container .badge {
+  height: 1em;
+  vertical-align: middle;
+}
+
+.emote {
+  height: 1.7em;
+  vertical-align: middle;
+}
+
+.chat_root {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  font-family: var(--chat-font);
+}
+
